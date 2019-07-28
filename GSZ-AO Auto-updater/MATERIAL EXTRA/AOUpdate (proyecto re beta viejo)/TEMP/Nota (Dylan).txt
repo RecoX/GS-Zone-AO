@@ -1,0 +1,4 @@
+Bueno, por lo visto en AOUpdate.ini van los archivos que se van a descargar cuando se ejecuta por primera vez el autoupdate.
+De todas maneras sigo investigando el programa sobre sus funciones que ya tienen y hace falta agregar/modificar o quitar.
+
+Dylan.-

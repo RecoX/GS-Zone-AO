@@ -1,0 +1,19 @@
+FUNCIONAMIENTO
+**************
+
+1) Lee el MD5 de AOUpdate.exe y verifica en internet que sean iguales.
+2) Descarga de internet el listado completo de archivos correspondientes a la versión y su MD5.
+3) Verifica que todos los archivos existan y tengan igual MD5, en caso contrario, los descarga.
+4) Si el MD5 es distinto en Graficos/Graficos.AO o Mapas/Mapas.AO, lee la versión de la compresión 
+	y verifica si hay parches disponibles. Estos se encuentran en internet como /parche1, /parche2 
+	y así sucesivamente, el sistema buscara el parche con el numero de versión siguiente, es decir,
+	si el recurso es versión 0, buscara parche1, si el recurso es versión 15, buscara el parche16.
+	Ambos estaran dividos en graficos/parche1 y mapas/parche1, por ejemplo.
+5) Si existe un parche para la versión siguiente, lo descarga, en lo contrario, elimina el recurso e indica que debe volver a descargarse el cliente.
+
+NOTA: Los archivos que se descarguen, ejecutables, inits, graficos, etc, se encontrarán comprimidos en .ZIP al momento de descargarlos, por lo que el AOUpdater debe descomprimirlos para colocarlos en los lugares correspondientes.
+
+
+
+
+http://gsz-ao.sourceforge.net/ sería el host oficial de las actualizaciones XD
